@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-form-container">
+            <form action="" method="get">
+                <div class="form-group">
+                    <label class="text-input-label"for="firstName">First Name:</label>
+                    <input class="text-input"type="text"name="firstName" id="firstName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="Surname">Surname:</label>
+                    <input class="text-input"type="text"name="surname" id="surname" placeholder="Surname">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="userEmail">Email:</label>
+                    <input class="text-input"type="email"name="userEmail" id="userEmail">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="bithDate">Birth Date:</label>
+                    <input class="text-input"type="Date"name="birthDate" id="birthDate">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="Surname">Birth Place:</label>
+                    <select class="location">
+                        <option value="">Georgia</option>
+                        <option value="">Greece</option>
+                        <option value="">USA</option>
+                        <option value="">GB</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="male">
+                        <label for="sex">male</label>
+                    </div>
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="female">
+                        <label for="sex">female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="password">Password:</label>
+                    <input class="text-input"type="password"name="password" id="password" placeholder="PAS">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label"for="passReplay">Repeat Password:</label>
+                    <input class="text-input"type="password"name="passReplay" id="passReplay" placeholder="password">
+                </div>
+                <button class="btn btn-primary w-100 mb-15">Registration</button>
+                <a class="btn btn-link"href="./auth.html">Authorization</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -3,7 +3,7 @@
     height: 800px;
 }
 */
-.auth-form-container{
+.auth-form-container {
     width: 300px;
     min-height: 200px;
     border: 1px solid #ccc;
@@ -11,33 +11,55 @@
     padding: 15px;
     box-sizing: border-box;
 }
-.auth-form-container .text-input-label{
+.auth-form-container .text-input-label {
     display: block;
     margin-bottom: 5px;
 }
-.auth-form-container .text-input{
+.auth-form-container .text-input,
+.auth-form-container .location {
     height: 35px;
     width: 100%;
     display: block;
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
+    border: 1px solid black;
 }
-.form-group{
+.auth-form-container .location {
+    background-color: white;
+}
+.form-group {
     margin-bottom: 15px;
 }
-.submit-button{
+.btn {
     display: block;
-    width: 100%;
-    height: 35px;
-    background-color: blueviolet;
-    border: 0px;
-    color: azure;
-    cursor: pointer;
-    margin-bottom: 15px;
-}
-.reset-class-link{
-    display: block;
+    font-size: 16px;
+    height:35px;
     text-align: center;
-    font-size:15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blueviolet;
+    color: white;
+}
+.w-100 {
+    width: 100%;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+.btn-link{
+    text-decoration: none;
+    line-height: 35px;
+    color: blue;
+}
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.sex-container {
+    display: inline-block;
 }
